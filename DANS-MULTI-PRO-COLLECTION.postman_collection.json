@@ -1,0 +1,507 @@
+{
+	"info": {
+		"_postman_id": "55008087-e39a-4ee9-9765-c4bc53bd57b9",
+		"name": "DANS-MULTI-PRO-COLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21182265"
+	},
+	"item": [
+		{
+			"name": "Register User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"full_name\": \"Alif Yudha\",\r\n    \"username\": \"alif15\",\r\n    \"password\": \"Alif123@\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9078/v1/project/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9078",
+					"path": [
+						"v1",
+						"project",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"full_name\": \"Alif Yudha\",\r\n    \"username\": \"alif15\",\r\n    \"password\": \"Alif123@\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9078/v1/project/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9078",
+							"path": [
+								"v1",
+								"project",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS, HEAD"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Apr 2023 08:49:37 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "118"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"request_id\": \"838b6dbc-0b0e-44e0-bc94-d792859b6a5a\",\n    \"message\": \"Sukses Register User Baru\",\n    \"data\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Login User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"alif15\",\r\n    \"password\": \"Alif123@\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9078/v1/project/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9078",
+					"path": [
+						"v1",
+						"project",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"alif15\",\r\n    \"password\": \"Alif123@\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9078/v1/project/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9078",
+							"path": [
+								"v1",
+								"project",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS, HEAD"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6ImFsaWYxNSIsImlzcyI6Imp3dC1kYW5zLW11bHRpLXBybyIsImV4cCI6MTY4MTk4MTAwNH0.c1zLwJvgG1p2woYiKZt-hMkH3ujvC98srC5HTBv8IgY; Path=/; HttpOnly"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Apr 2023 08:51:44 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "107"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"request_id\": \"0c287f28-0d76-47c9-b065-5ece28b4bf68\",\n    \"message\": \"Login Berhasil\",\n    \"data\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Logout User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9078/v1/project/auth/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9078",
+					"path": [
+						"v1",
+						"project",
+						"auth",
+						"logout"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Logout User",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9078/v1/project/auth/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9078",
+							"path": [
+								"v1",
+								"project",
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS, HEAD"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "token=; Path=/; Max-Age=0; HttpOnly"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Apr 2023 08:52:25 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "108"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"request_id\": \"343272c8-55f6-4d3f-b1b6-72b078abf05e\",\n    \"message\": \"Logout Berhasil\",\n    \"data\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Detail Position",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9078/v1/project/api/recruitment/position/32bf67e5-4971-47ce-985c-44b6b3860cdb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9078",
+					"path": [
+						"v1",
+						"project",
+						"api",
+						"recruitment",
+						"position",
+						"32bf67e5-4971-47ce-985c-44b6b3860cdb"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9078/v1/project/api/recruitment/position/32bf67e5-4971-47ce-985c-44b6b3860cdb",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9078",
+							"path": [
+								"v1",
+								"project",
+								"api",
+								"recruitment",
+								"position",
+								"32bf67e5-4971-47ce-985c-44b6b3860cdb"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS, HEAD"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Apr 2023 09:10:23 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "117"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"request_id\": \"015bc266-988c-4d94-ad91-2ec871e4b225\",\n    \"error_code\": 401,\n    \"error_message\": \"Unauthorized\"\n}"
+				},
+				{
+					"name": "Get Detail Position",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9078/v1/project/api/recruitment/position/32bf67e5-4971-47ce-985c-44b6b3860cdb",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9078",
+							"path": [
+								"v1",
+								"project",
+								"api",
+								"recruitment",
+								"position",
+								"32bf67e5-4971-47ce-985c-44b6b3860cdb"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS, HEAD"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Apr 2023 09:10:41 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"request_id\": \"2c183575-480b-4ef2-8bdb-e829c80e9634\",\n    \"message\": \"Berhasil Get Data\",\n    \"data\": {\n        \"id\": \"32bf67e5-4971-47ce-985c-44b6b3860cdb\",\n        \"type\": \"Full Time\",\n        \"url\": \"https://jobs.github.com/positions/32bf67e5-4971-47ce-985c-44b6b3860cdb\",\n        \"created_at\": \"Wed May 19 00:49:17 UTC 2021\",\n        \"company\": \"SweetRush\",\n        \"company_url\": \"https://www.sweetrush.com/\",\n        \"location\": \"Remote\",\n        \"title\": \"Senior Creative Front End Web Developer\",\n        \"description\": \"<p><strong>SweetRush has an exciting opportunity for an experienced creative front-end developer (full stack is also acceptable) with an eye for graphic and UX design!</strong></p>\\n<p><strong>ABOUT THE ROLE:</strong></p>\\n<p>This is an important role on the Engineering and Development department’s Course Development team, and you will be reporting directly to the Course Development team lead.</p>\\n<p>Historically, the developers most successful in this role contribute to multiple projects at the same time; show a willingness to improve existing techniques, frameworks, and templates; and come up with innovations of their own. You will succeed if you truly enjoy active collaboration with your colleagues and don’t mind stepping in when your help is required.</p>\\n<p>This is a remote position and a great opportunity to work from home. Candidates from all geographic locations are welcome to apply; however, our development team is mostly based in North and Latin America, and you should be willing to work during our business hours.</p>\\n<p><strong>REQUIRED SKILLS:</strong></p>\\n<p><strong>Front end</strong></p>\\n<ul>\\n<li>7+ years as a front-end or full-stack developer in a creative environment</li>\\n<li>Expert-level JavaScript skills—Vanilla JS expertise is as important as the knowledge of frameworks and libraries</li>\\n<li>High level of competency in HTML5 and CSS3</li>\\n<li>Familiarity with one or more frameworks, preferably <strong>React and Node.js</strong>\\n</li>\\n<li>While React is the most commonly used framework at the moment, your proven ability to quickly harness unfamiliar technology is more important than an intimate knowledge of any of the given frameworks.</li>\\n<li><strong>Most importantly - you can look at just about any cool effect, interaction, animation, parallax, website on the web, and say - Even if I can’t do this now, I want to try!</strong></li>\\n<li>Understanding of responsive design and mobile-first principles</li>\\n</ul>\\n<p><strong>Soft skills and generic productivity tools</strong></p>\\n<ul>\\n<li>Ability to clearly communicate in English</li>\\n<li>English verbal communication skills are an absolute must because the position requires frequent interaction with peers and clients.</li>\\n<li>Experience with version control systems such as Git or Subversion</li>\\n<li>Experience working in a team development environment or demonstrating a capacity to do so</li>\\n<li>Enjoy learning and experimenting, open to new ideas</li>\\n</ul>\\n<p><strong>YOU WILL IMPRESS EVERYONE IF YOU:</strong></p>\\n<ul>\\n<li>Have built a learning simulation</li>\\n<li>Have experience with mobile app development and distribution</li>\\n<li>Have experience with graphic and UX design</li>\\n<li>Know anything about Adapt Framework</li>\\n</ul>\\n<p><strong>YOU MAY BE EXPECTED TO:</strong></p>\\n<ul>\\n<li>Complete a test assignment</li>\\n<li>Be interviewed by a number of highly judgmental yet supremely talented future colleagues</li>\\n</ul>\\n<p><strong>THE ESSENCE OF THE JOB</strong></p>\\n<p>OK, now that you’ve made it through all the obligatory language, you may be wondering what this position is really all about. Therefore, please read the rest of this job description carefully!</p>\\n<p>It all boils down to your ability to make a simple claim: <strong>I can do it!</strong></p>\\n<p>If we show you an interactive website with intricate animations, a complicated menu system, and multiple interdependencies, you should state: <strong>I can do it!</strong></p>\\n<p>If we need to harness a complex web-based gaming engine and use it for the first time to build a learning simulation, you should confidently assert: <strong>I can do it!</strong></p>\\n<p>If we need to produce a large volume of digital training materials in a record short period of time, you should answer: <strong>I can do it!</strong></p>\\n<p>And if we need an adventurous engineer to lead the team in the creation of a system that is completely different from everything we have done before, we’re most definitely looking for the loud <strong>I can do it!</strong></p>\\n<p>And even more importantly, you must <strong>want to do it</strong>.</p>\\n<p>SweetRush is a team of winners. These are not empty words. Just check out our impressive industry trophy shelf, which includes this recent success: <a href=\\\"https://www.sweetrush.com/sweetrush-wins-16-awards-brandon-hall-awards-2020\\\">https://www.sweetrush.com/sweetrush-wins-16-awards-brandon-hall-awards-2020</a>.</p>\\n<p>As a winner, you will always want the ball. Want to do better. Want to be more creative and efficient. Join us, and let's see if we can win even more by working together!</p>\\n<p>This is a work-from-home opportunity! We are 100% virtual, and all communications occur over digital channels (Skype/Web Share/email), apart from infrequent on-site meetings. Occasional travel may be required.</p>\\n<p><strong>Please note: We're all about remote work and have collaborators based all around the world; however, SweetRush is a US-based company, and English is our primary language. If you'd like to be considered for this opportunity, please submit your resume in English.</strong></p>\\n\",\n        \"how_to_apply\": \"<p>If this describes your interests and experience, please submit your current resume and salary requirements through the following link:\\n<a href=\\\"https://www.sweetrush.com/join-us/\\\">https://www.sweetrush.com/join-us/</a></p>\\n\",\n        \"company_logo\": \"https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUtqIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--82886ff47e94ff4c0255b95773a9667644768b2b/SR%20Logo.png\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get List Position",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9078/v1/project/api/recruitment/position?description=golang",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9078",
+					"path": [
+						"v1",
+						"project",
+						"api",
+						"recruitment",
+						"position"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "description",
+							"value": "golang"
+						},
+						{
+							"key": "location",
+							"value": "Cologne",
+							"disabled": true
+						},
+						{
+							"key": "full_time",
+							"value": "false",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get List Position",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9078/v1/project/api/recruitment/position?description=golang",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9078",
+							"path": [
+								"v1",
+								"project",
+								"api",
+								"recruitment",
+								"position"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "description",
+									"value": "golang"
+								},
+								{
+									"key": "location",
+									"value": "Cologne",
+									"disabled": true
+								},
+								{
+									"key": "full_time",
+									"value": "false",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS, HEAD"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 20 Apr 2023 10:26:07 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"request_id\": \"c4593b80-4556-4f89-9803-73cfafa09ed4\",\n    \"message\": \"Berhasil Get List Data Data\",\n    \"data\": [\n        {\n            \"id\": \"0afc57b1-f535-4cf6-af94-4c1aa57bbcfa\",\n            \"type\": \"Full Time\",\n            \"url\": \"https://jobs.github.com/positions/0afc57b1-f535-4cf6-af94-4c1aa57bbcfa\",\n            \"created_at\": \"Tue May 18 14:05:17 UTC 2021\",\n            \"company\": \"DEVK Versicherungen\",\n            \"company_url\": \"https://bewerbungsportal.devk.de/index\",\n            \"location\": \"Cologne\",\n            \"title\": \"Cloud Platform Engineer (d/m/w)\",\n            \"description\": \"<p>Cloud Platform Engineer (d/m/w)</p>\\n<p>Seit mehr als 130 Jahren legen Versicherte in Deutschland ihre Risiken des Alltags vertrauensvoll in die Hände der DEVK Versicherungen. Heute ist die DEVK bundesweit präsent und betreut die persönlichen Anliegen von über vier Millionen Kunden in allen Versicherungssparten.\\nIn der DEVK IT sind bereits heute Cloud Lösungen ein wesentlicher Baustein, der künftig weiter ausgebaut werden soll. Als Cloud Platform Engineer (d/m/w) sind Sie verantwortlich für die Operationalisierung der Cloud Strategie und die Befähigung der DEVK für den Einsatz von Cloud Services.</p>\\n<p>Ihre Aufgaben</p>\\n<ul>\\n<li>Administration und Weiterentwicklung unserer Kubernetes Cluster</li>\\n<li>Entwicklung und Betrieb der Infrastruktur-Automatisierung mit Terraform / Terragrunt / Terratest</li>\\n<li>Optimierung der Deployment-Pipeline</li>\\n<li>Implementierung und Administration AWS Services</li>\\n<li>Betrieb, Entwicklung und Pflege von Docker Images</li>\\n<li>Administration und Weiterentwicklung von Security-Komponenten in AWS und Kubernetes</li>\\n</ul>\\n<p>Ihr Profil</p>\\n<ul>\\n<li>Entwickler-Mindset (trunk-based development, continuous delivery) mit Erfahrungen im Bereich der Containerorchestrierung (bevorzugt Kubernetes)</li>\\n<li>Erfahrungen mit Cloud Services (bevorzugt AWS)</li>\\n<li>Breites technisches Knowhow im Bereich Cloud und Container</li>\\n<li>Kenntnisse agiler Methoden</li>\\n<li>Gute Kenntnisse der folgenden Sprachen, Tools oder Technologien:\\no\\tKubernetes, Helm\\no\\tHashicorp Stack (Vault, Terraform, Packer, Consul)\\no\\tGolang\\no\\tElasticSearch, Kibana</li>\\n<li>Grundlagen in Netzwerk-Technologie</li>\\n<li>Spaß an Teamarbeit (Kommunikation, Knowhow-Aufbau im Team etc.)</li>\\n<li>Interesse an neuen Technologien und Offenheit für das Angebot der DEVK zur permanenten Weiterentwicklung</li>\\n</ul>\\n<p>Unsere Benefits</p>\\n<ul>\\n<li>Sichere Arbeitsplätze in einem stetig wachsenden Unternehmen</li>\\n<li>Eine hervorragende arbeitgeberfinanzierte betriebliche Altersversorgung</li>\\n<li>Flexible Arbeitszeitmodelle</li>\\n<li>Möglichkeit für Homeoffice / Mobiles Arbeiten</li>\\n<li>Stark vergünstigtes Job-Ticket</li>\\n</ul>\\n<p>Informieren Sie sich über unsere weiteren Benefits:\\n<a href=\\\"https://www.devk.de/karriere/devkjobwelt/innendienst/mitarbeitervorteile-innendienst.jsp\\\">https://www.devk.de/karriere/devkjobwelt/innendienst/mitarbeitervorteile-innendienst.jsp</a></p>\\n<p>Jetzt bewerben:\\n<a href=\\\"https://bewerbungsportal.devk.de/jobs/15252-cloud-platform-engineer-d-m-w/job_application/new?cid=662c9407-f8cb-4024-a169-90c1c45dcfb4&amp;jid=7d3c50b7-4033-4607-a7e6-5a66a29062c0&amp;pid=3c460e75-1500-4628-862b-d5e5a9a02334&amp;it=4oCg1W3_iapbwK0VP9K01w\\\">https://bewerbungsportal.devk.de/jobs/15252-cloud-platform-engineer-d-m-w/job_application/new?cid=662c9407-f8cb-4024-a169-90c1c45dcfb4&amp;jid=7d3c50b7-4033-4607-a7e6-5a66a29062c0&amp;pid=3c460e75-1500-4628-862b-d5e5a9a02334&amp;it=4oCg1W3_iapbwK0VP9K01w</a></p>\\n<p>DEVK-Stellenbörse:\\n<a href=\\\"https://bewerbungsportal.devk.de/index\\\">https://bewerbungsportal.devk.de/index</a></p>\\n<p>Wir freuen uns darauf, Sie persönlich kennenzulernen. Falls Sie noch Fragen haben, rufen Sie uns gerne an.</p>\\n<p>Ihre Ansprechpartnerin:\\nTanja Willing</p>\\n<p>Tel.: +49 221 757-1154</p>\\n\",\n            \"how_to_apply\": \"<p><a href=\\\"https://bewerbungsportal.devk.de/jobs/15252-cloud-platform-engineer-d-m-w/job_application/new?cid=662c9407-f8cb-4024-a169-90c1c45dcfb4&amp;jid=7d3c50b7-4033-4607-a7e6-5a66a29062c0&amp;pid=3c460e75-1500-4628-862b-d5e5a9a02334&amp;it=4oCg1W3_iapbwK0VP9K01w\\\">https://bewerbungsportal.devk.de/jobs/15252-cloud-platform-engineer-d-m-w/job_application/new?cid=662c9407-f8cb-4024-a169-90c1c45dcfb4&amp;jid=7d3c50b7-4033-4607-a7e6-5a66a29062c0&amp;pid=3c460e75-1500-4628-862b-d5e5a9a02334&amp;it=4oCg1W3_iapbwK0VP9K01w</a></p>\\n\",\n            \"company_logo\": \"https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaEtqIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--24c86a54e3794712ee0bbdc4994243071b5bb978/DEVK.png\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}

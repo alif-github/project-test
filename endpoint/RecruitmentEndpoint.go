@@ -19,3 +19,7 @@ func (input recruitmentEndpoint) Initiate() (output recruitmentEndpoint) {
 func (input recruitmentEndpoint) GetDetailPosition(response http.ResponseWriter, request *http.Request) {
 	input.ServeJWTTokenValidationEndpoint(response, request, RecruitmentService.RecruitmentService.GetDetailRecruitmentService)
 }
+
+func (input recruitmentEndpoint) GetListPosition(response http.ResponseWriter, request *http.Request) {
+	input.ServeJWTTokenValidationEndpoint(response, request, RecruitmentService.RecruitmentService.GetListRecruitmentService)
+}

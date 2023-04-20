@@ -27,6 +27,7 @@ func APIController() {
 	auth.Use(Middleware)
 
 	api := handler.PathPrefix("/v1" + prefixPath + "/api").Subrouter()
+	api.HandleFunc("/recruitment/position", endpoint.RecruitmentEndpoint.GetListPosition).Methods("GET")
 	api.HandleFunc("/recruitment/position/{ID}", endpoint.RecruitmentEndpoint.GetDetailPosition).Methods("GET")
 	api.Use(JWTMiddleware)
 

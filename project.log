@@ -28,3 +28,41 @@
 {"level":"ERROR","timestamp":"2023-04-20T16:26:54.704351+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":401,"message":"Unauthorized"}
 {"level":"INFO","timestamp":"2023-04-20T16:26:57.4417734+07:00","requestID":"4c5004e6-e73b-4cb3-8826-279afc183366","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
 {"level":"INFO","timestamp":"2023-04-20T16:26:59.9172454+07:00","requestID":"902a38bb-03ed-48b3-a8b2-e8382e8ab265","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:15:07.4668609+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T17:15:07.4682074+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"ERROR","timestamp":"2023-04-20T17:15:37.9854507+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":401,"message":"Unauthorized, Token Expired!"}
+{"level":"INFO","timestamp":"2023-04-20T17:15:43.0888004+07:00","requestID":"659d8267-6ed5-4fff-90c5-c5690a79172b","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:15:46.5234232+07:00","requestID":"ba261022-f15b-4ff4-acf3-b942d1997bfa","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:16:11.3056977+07:00","requestID":"e2d580b8-a887-4ebe-ae0f-c7e346c0bbf0","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:16:59.9038927+07:00","requestID":"c086baf5-d59f-4d86-9213-9aa468dc8b05","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:17:35.8404941+07:00","requestID":"773b5505-0c2f-4d75-bac6-2e6ddd9c8cd8","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:17:48.147107+07:00","requestID":"33324499-c587-4dde-aa39-39bff4840d36","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:17:56.0927513+07:00","requestID":"949207bd-59e7-4964-a835-11a706b769f8","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:17:59.8473413+07:00","requestID":"36780a69-ffbb-4557-bf08-28b185dcafe5","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:18:28.1820336+07:00","requestID":"c65b27f0-125a-4bbf-b994-63989b239eba","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:18:45.9987308+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T17:18:46.000183+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"INFO","timestamp":"2023-04-20T17:19:42.3217977+07:00","requestID":"0430e878-62c3-4359-b2da-c9c50f89ae07","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"ERROR","timestamp":"2023-04-20T17:20:07.9415236+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":500,"message":"unexpected EOF"}
+{"level":"ERROR","timestamp":"2023-04-20T17:20:07.9770839+07:00","requestID":"4cdefe81-aab7-456f-a3f4-7b9156b65055","class":"-","application":"project","version":"1.0.0","code":500,"message":"Kesalahan pada system, hubungi CS kami"}
+{"level":"INFO","timestamp":"2023-04-20T17:20:49.5059898+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T17:20:49.5072706+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"ERROR","timestamp":"2023-04-20T17:20:51.459994+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":401,"message":"Unauthorized, Token Expired!"}
+{"level":"INFO","timestamp":"2023-04-20T17:20:55.7343252+07:00","requestID":"15452bcb-0a4a-4094-9e54-1e5d7c2f09d0","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"ERROR","timestamp":"2023-04-20T17:22:15.9578469+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":500,"message":"unexpected EOF"}
+{"level":"ERROR","timestamp":"2023-04-20T17:22:15.9583557+07:00","requestID":"f54d6c72-ffa5-4b9c-806e-af4cf213c704","class":"-","application":"project","version":"1.0.0","code":500,"message":"Kesalahan pada system, hubungi CS kami"}
+{"level":"ERROR","timestamp":"2023-04-20T17:23:27.6627566+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":500,"message":"unexpected EOF"}
+{"level":"ERROR","timestamp":"2023-04-20T17:23:27.6634248+07:00","requestID":"b904ce7d-2ee1-412f-b580-796497925d4c","class":"-","application":"project","version":"1.0.0","code":500,"message":"Kesalahan pada system, hubungi CS kami"}
+{"level":"ERROR","timestamp":"2023-04-20T17:24:25.7943765+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":500,"message":"unexpected EOF"}
+{"level":"ERROR","timestamp":"2023-04-20T17:24:25.7948919+07:00","requestID":"278b6d0b-4925-4d64-bc0d-87298f0b69d4","class":"-","application":"project","version":"1.0.0","code":500,"message":"Kesalahan pada system, hubungi CS kami"}
+{"level":"INFO","timestamp":"2023-04-20T17:24:45.5429026+07:00","requestID":"6a6792b7-d056-4151-a1c4-5823898f1b9d","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:25:23.7730067+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T17:25:23.7735974+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"INFO","timestamp":"2023-04-20T17:25:40.1683814+07:00","requestID":"6bfd7167-cf4d-4b4e-bcee-22087febae58","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:25:50.6882673+07:00","requestID":"b6c099e7-6f00-4185-8fce-a2e818ef8003","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"ERROR","timestamp":"2023-04-20T17:25:59.4901486+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":401,"message":"Unauthorized, Token Expired!"}
+{"level":"INFO","timestamp":"2023-04-20T17:26:03.7318149+07:00","requestID":"aa69072d-7322-4087-878c-8c330a6c38d0","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:26:07.1049241+07:00","requestID":"c4593b80-4556-4f89-9803-73cfafa09ed4","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:26:48.2631239+07:00","requestID":"1ca06967-d2e4-4434-9c7f-f4c01454f6a3","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T17:29:44.4742767+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T17:29:44.4754118+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}

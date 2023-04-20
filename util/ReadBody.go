@@ -25,3 +25,11 @@ func ReadBody(request *http.Request) (byteBody []byte, bodySize int, err model.E
 
 	return
 }
+
+func GenerateQueryValue(queryValues []string) string {
+	if queryValues == nil {
+		return ""
+	} else {
+		return queryValues[0]
+	}
+}
