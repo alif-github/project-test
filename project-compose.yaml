@@ -1,0 +1,16 @@
+version: '3'
+services:
+  project-postgres:
+    image: postgres:13
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=rakuten
+      - POSTGRES_PASSWORD=rakuten@123
+      - POSTGRES_DB=rakuten
+  project-backend:
+    build: .
+    ports:
+      - 8080:8080
+    depends_on:
+      - project-postgres

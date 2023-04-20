@@ -1,0 +1,30 @@
+{"level":"INFO","timestamp":"2023-04-20T16:04:44.9735328+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 1 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T16:04:44.9741709+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"INFO","timestamp":"2023-04-20T16:05:45.1294043+07:00","requestID":"99b682cc-fe0b-45c0-9acc-1966c72ab605","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:05:57.8625374+07:00","requestID":"7c345484-d4d7-42b4-937c-5d302627bf01","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:07:07.6195319+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T16:07:07.6205559+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"INFO","timestamp":"2023-04-20T16:07:11.1923971+07:00","requestID":"56b98b44-5440-4c91-8f2b-bf9a97eaa4f9","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:07:32.9312981+07:00","requestID":"d3732fd4-f200-4547-9c66-bea2af07950e","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:07:50.1481818+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T16:07:50.1495677+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"INFO","timestamp":"2023-04-20T16:08:25.3663925+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T16:08:25.3676894+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"ERROR","timestamp":"2023-04-20T16:09:19.6305655+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":401,"message":"Unauthorized"}
+{"level":"INFO","timestamp":"2023-04-20T16:09:36.8313842+07:00","requestID":"9378e5cd-7d1b-40a3-a4d1-7750d72a62be","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:09:41.9557825+07:00","requestID":"b812295f-e5d3-4116-9f43-d52b6043dd9f","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:09:49.0611281+07:00","requestID":"77e4b4f7-1b62-481a-b4d1-1be9a17d7672","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"ERROR","timestamp":"2023-04-20T16:09:51.9653739+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":401,"message":"Unauthorized"}
+{"level":"ERROR","timestamp":"2023-04-20T16:10:23.2887718+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":401,"message":"Unauthorized"}
+{"level":"INFO","timestamp":"2023-04-20T16:10:38.3835234+07:00","requestID":"b99553c9-b9de-49ae-9580-a5328af1bd2d","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:10:41.3459227+07:00","requestID":"2c183575-480b-4ef2-8bdb-e829c80e9634","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:12.9193082+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:12.9201295+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:31.3585833+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":200,"message":"Has Applied 0 Migrations"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:31.3588634+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":0,"message":"Starting Port 9078"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:43.7821977+07:00","requestID":"607c39c9-f1b3-42e5-8d5b-ab77363d7c9d","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:47.9788708+07:00","requestID":"a7e12328-2060-4b05-ba1c-fc9e65fb68c2","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:51.7988562+07:00","requestID":"93e667e9-6df6-4119-b3d5-53561141efb1","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"ERROR","timestamp":"2023-04-20T16:26:54.704351+07:00","requestID":"-","class":"-","application":"project","version":"1.0.0","code":401,"message":"Unauthorized"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:57.4417734+07:00","requestID":"4c5004e6-e73b-4cb3-8826-279afc183366","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}
+{"level":"INFO","timestamp":"2023-04-20T16:26:59.9172454+07:00","requestID":"902a38bb-03ed-48b3-a8b2-e8382e8ab265","class":"-","application":"project","version":"1.0.0","code":200,"message":"-"}

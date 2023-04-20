@@ -1,0 +1,21 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "0.0.0.0",
+    "port": "$(PROJECT_WEB_PORT)",
+    "version": "1.0.0",
+    "prefix_path": "project",
+    "application": "project"
+  },
+  "postgresql": {
+    "driver": "pgx",
+    "address": "$(PROJECT_ADDRESS_PSQL)",
+    "default_schema": "$(PROJECT_SCHEMA_PSQL)",
+    "max_open_connection": 500,
+    "max_idle_connection": 100
+  },
+  "log_file": [
+    "project.log",
+    "stdout"
+  ]
+}

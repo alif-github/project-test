@@ -1,0 +1,21 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "0.0.0.0",
+    "port": "9078",
+    "version": "1.0.0",
+    "prefix_path": "project",
+    "application": "project"
+  },
+  "postgresql": {
+    "driver": "pgx",
+    "address": "user=rakuten password=rakuten@123 dbname=rakuten sslmode=disable host=localhost port=5432",
+    "default_schema": "rakuten",
+    "max_open_connection": 500,
+    "max_idle_connection": 100
+  },
+  "log_file": [
+    "project.log",
+    "stdout"
+  ]
+}
