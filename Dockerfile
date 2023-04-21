@@ -8,7 +8,7 @@ ENV PROJECT-KEY-DOCKER=/app/config
 
 ENV PROJECT_WEB_PORT=8080
 
-ENV PROJECT_ADDRESS_PSQL host=rakuten-postgres port=5432 user=rakuten password=rakuten@123 dbname=rakuten sslmode=disable
+ENV PROJECT_ADDRESS_PSQL host=project-postgres port=5432 user=rakuten password=rakuten@123 dbname=rakuten sslmode=disable
 
 ENV PROJECT_SCHEMA_PSQL=rakuten
 
