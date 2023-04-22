@@ -15,7 +15,14 @@ import (
 func main() {
 
 	//--- Generate Configuration
-	config.GenerateConfiguration("development")
+	environment := "development"
+	args := os.Args
+	if len(args) > 1 {
+		environment = args[1]
+		fmt.Println("Run in environment : ", environment)
+	}
+
+	config.GenerateConfiguration(environment)
 
 	//--- Define Logger
 	util.ConfigZap(config.ApplicationConfiguration.GetLogFile())
@@ -39,7 +46,7 @@ func main() {
 }
 
 func autoCreateSchema() {
-	createSchema := fmt.Sprintf(`CREATE SCHEMA IF NOT EXISTS rakuten;`)
+	createSchema := fmt.Sprintf(`CREATE SCHEMA IF NOT EXISTS %s;`, config.ApplicationConfiguration.GetPostgresql().DefaultSchema)
 	_, errS := serverconfig.ServerAttribute.DBConnection.Exec(createSchema)
 	if errS != nil {
 		logModel := model.GenerateLogModel(config.ApplicationConfiguration.GetServer().Version, config.ApplicationConfiguration.GetServer().Application)

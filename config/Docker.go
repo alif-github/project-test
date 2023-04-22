@@ -17,7 +17,8 @@ type DockerConfig struct {
 		MaxOpenConnection int    `json:"max_open_connection"`
 		MaxIdleConnection int    `json:"max_idle_connection"`
 	} `json:"postgresql"`
-	LogFile []string `json:"log_file"`
+	ExternalApi ExternalApi `json:"external_api"`
+	LogFile     []string    `json:"log_file"`
 }
 
 func (input DockerConfig) GetServer() Server {
@@ -43,4 +44,8 @@ func (input DockerConfig) GetPostgresql() Postgresql {
 
 func (input DockerConfig) GetLogFile() []string {
 	return input.LogFile
+}
+
+func (input DockerConfig) GetExternalAPI() ExternalApi {
+	return input.ExternalApi
 }

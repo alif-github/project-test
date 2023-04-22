@@ -2,7 +2,6 @@ package RecruitmentService
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/alif-github/project-test/config"
 	"github.com/alif-github/project-test/dto/in"
 	"github.com/alif-github/project-test/dto/out"
@@ -35,7 +34,7 @@ func (input recruitmentService) GetListRecruitmentService(w http.ResponseWriter,
 		}
 	}()
 
-	urlLink, errFetch = url.Parse(fmt.Sprintf(`http://dev3.dansmultipro.co.id/api/recruitment/positions.json`))
+	urlLink, errFetch = url.Parse(config.ApplicationConfiguration.GetExternalAPI().Url + config.ApplicationConfiguration.GetExternalAPI().Path.List)
 	if errFetch != nil {
 		err = model.GenerateErrorModel(http.StatusInternalServerError, "Kesalahan pada system, hubungi CS kami", fileName, funcName)
 		return

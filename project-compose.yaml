@@ -5,9 +5,9 @@ services:
     ports:
       - 5432:5432
     environment:
-      - POSTGRES_USER=rakuten
-      - POSTGRES_PASSWORD=rakuten@123
-      - POSTGRES_DB=rakuten
+      - POSTGRES_USER=codetest
+      - POSTGRES_PASSWORD=codetest@123
+      - POSTGRES_DB=codetest
   project-backend:
     build: .
     ports:

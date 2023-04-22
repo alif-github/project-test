@@ -14,6 +14,7 @@ type Configuration interface {
 	GetPostgresql() Postgresql
 	GetLogFile() []string
 	GetServer() Server
+	GetExternalAPI() ExternalApi
 }
 
 type Server struct {
@@ -31,6 +32,14 @@ type Postgresql struct {
 	DefaultSchema     string
 	MaxOpenConnection int
 	MaxIdleConnection int
+}
+
+type ExternalApi struct {
+	Url  string
+	Path struct {
+		List string
+		View string
+	}
 }
 
 func GenerateConfiguration(argument string) {

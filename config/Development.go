@@ -17,7 +17,8 @@ type DevelopmentConfig struct {
 		MaxOpenConnection int    `json:"max_open_connection"`
 		MaxIdleConnection int    `json:"max_idle_connection"`
 	} `json:"postgresql"`
-	LogFile []string `json:"log_file"`
+	ExternalApi ExternalApi `json:"external_api"`
+	LogFile     []string    `json:"log_file"`
 }
 
 func (input DevelopmentConfig) GetServer() Server {
@@ -43,4 +44,8 @@ func (input DevelopmentConfig) GetPostgresql() Postgresql {
 
 func (input DevelopmentConfig) GetLogFile() []string {
 	return input.LogFile
+}
+
+func (input DevelopmentConfig) GetExternalAPI() ExternalApi {
+	return input.ExternalApi
 }

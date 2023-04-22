@@ -14,6 +14,13 @@
     "max_open_connection": 500,
     "max_idle_connection": 100
   },
+  "external_api": {
+    "url": "http://dev3.dansmultipro.co.id/api/recruitment",
+    "path": {
+      "list": "/positions.json",
+      "view": "/positions"
+    }
+  },
   "log_file": [
     "project.log",
     "stdout"

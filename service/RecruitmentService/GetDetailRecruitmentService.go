@@ -2,7 +2,6 @@ package RecruitmentService
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/alif-github/project-test/config"
 	"github.com/alif-github/project-test/dto/out"
 	"github.com/alif-github/project-test/model"
@@ -35,7 +34,7 @@ func (input recruitmentService) GetDetailRecruitmentService(w http.ResponseWrite
 		}
 	}()
 
-	responseData, errFetch, err = input.fetchDataHitAPI(fmt.Sprintf(`http://dev3.dansmultipro.co.id/api/recruitment/positions/%s`, id))
+	responseData, errFetch, err = input.fetchDataHitAPI(config.ApplicationConfiguration.GetExternalAPI().Url + config.ApplicationConfiguration.GetExternalAPI().Path.View + "/" + id)
 	if errFetch != nil {
 		return
 	}
