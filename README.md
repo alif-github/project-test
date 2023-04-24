@@ -23,6 +23,7 @@ The Project Test API is contains some API for get data job position from compani
 ```bash
   cd project-test
 ```
+- Edit location config development on file .env to source folder
 - Run server, as the default environment will be "development"
 ```bash
   go run main.go development
